@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Signup page</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    
+    <form action="" method="GET" autocomplete="off">
+        <h1>Sign Up</h1>
+        
+        <p>
+            <input type="text" name="name" placeholder="Enter your name" required>
+        </p>
+        <p>
+            <input type="email" name="email" placeholder="Enter Your correct email" required>
+        </p>
+        <p>
+             <input type="text" name="phone" maxlength="10" placeholder="Enter your correct phone number" required>
+        </p>
+        <p><select name="gender" id="">
+            <option value="">--Select Your Gender--</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        </p>
+        <p>
+            <select name="proof" id="" multiple>
+                <option value="">--Select two choices for identity proof--</option>
+                <option value="aadhar">Aadhar</option>
+                <option value="voter">Voter Card</option>
+                <option value="passport">Passport</option>
+                <option value="pan">Pan Card</option>
+            </select>
+        </p>
+        <input type="text" name="city" maxlength="15" placeholder="Enter your city" >
+    </p>
+    <p>
+        <textarea name="address" id="" cols="30" rows="10" maxlength="20" placeholder="Enter your address"></textarea>
+        
+    </p>
+        <button type="submit">Signup</button>
+    </form>
+</body>
+</html>
